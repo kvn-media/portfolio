@@ -177,29 +177,47 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "IT Support Engineer",
+      company: "AIA Indonesia",
+      companylogo: require("./assets/images/aia-indonesia.jpg"),
+      date: "November 2023 – November 2023",
+      desc: "Setup Laptop using image, Data Wipe user resign, Setup Profile Laptop for new hired user.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Setup Laptop using image",
+        "Data Wipe user resign",
+        "Setup Profile Laptop for new hired user",
+        "Setup replacement Laptop user exist",
+        "Setup replace new phone for user, login intune company portal, backup data"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineer",
+      company: "OCBC Bank",
+      companylogo: require("./assets/images/ocbc-logo.jpg"),
+      date: "November 2022 – November 2023",
+      desc: "Successfully doing Migrate SAS to Bigdata Project, ETL Data Source to Data Lake using Informatica and Airflow, Migrate Data Warehouse into Data Lake using Airflow, Migrate Informatica tables using Airflow.",
+      descBullets: [
+        "Migrate SAS script into Hive QL and Pyspark",
+        "ETL Data Source from MS SQL Server, Postgres, Oracle, AS400, MySQL into Data Lake using Informatica and Airflow",
+        "Migrate Data Warehouse into Data Lake using Airflow",
+        "Migrate Informatica tables using Airflow for changing HDFS path",
+        "Understanding flow and Concept of Apache Oozie",
+        "Give Solution in duplicate path when generate DAGs file"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Research and Development",
+      company: "Keviomedia",
+      companylogo: require("./assets/images/keviomedia-logo.png"),
+      date: "Feb 2021 – Oct 2022",
+      desc: "Web Cloud Hosting and Support customer services, Odoo Retail and POS development.",
+      descBullets: [
+        "Web Cloud Hosting services",
+        "Support customer services",
+        "Odoo Retail and POS development",
+        "Web development services",
+        "Android mobile apps development",
+      ]
     }
   ]
 };
@@ -219,25 +237,25 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/Logo-IdGuides-Fit-New.png"),
+      projectName: "IdGuides trails",
+      projectDesc: "Company profile, Services, Products, and Helpful info",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "idGuides trails for people and planet",
+          url: "https://idguides.net/v1/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/maccarobts-logo.jpg"),
+      projectName: "Maccaro BTS",
+      projectDesc: "Company Profile and Products",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Maccaro, Get you feeling Fresh!",
+          url: "https://maccarobts.com/"
         }
       ]
     }
@@ -255,53 +273,31 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Quality Assurance",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Get to know QA Proficient and Method Testing.",
+      image: require("./assets/images/binar-logo.jpeg"),
+      imageAlt: "QA Binar Academy",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://drive.google.com/file/d/1c0QOjYeODuf7hjfCe7Vb5HTffJ2RFIEy/view?usp=drive_link"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Data Warehouse for Architecture Database Data Engineer",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Creating data warehouse for architecture database, learn about data modeling, data warehouse platform, infrastructure, data extract transformation and loading (ETL), data quality and cleansing",
+      image: require("./assets/images/skillacademy-logo.png"),
+      imageAlt: "Skill Academy",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1SQ96ZSPn3Kvotceh0kAGb2kJ4UAmV_GP/view?usp=drive_link"
         }
       ]
     },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -327,7 +323,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -346,7 +342,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -359,25 +355,25 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+62-858-8342-1924",
+  email_address: "kevin.subagio@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
