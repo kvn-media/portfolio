@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1j88WAN8UlpzxXUad_97zZLoyqdy5-VGg/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -37,7 +37,8 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/muhammad-kevin-subagio-236978233/",
   gmail: "kevin.subagio@gmail.com",
   gitlab: "https://git.enigmacamp.com/enigma-20/muhammad-kevin/",
-  facebook: "https://www.facebook.com/saad.pasta7",
+  instagram: "https://www.instagram.com/kisaragi_kvn",
+  // facebook: "https://www.facebook.com/saad.pasta7",
   // medium: "https://medium.com/@saadpasta",
   stackoverflow: "https://stackoverflow.com/users/22397481/kevin",
   // Instagram, Twitter and Kaggle are also supported in the links!
