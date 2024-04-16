@@ -259,6 +259,17 @@ const bigProjects = {
           url: "https://maccarobts.com/"
         }
       ]
+    },
+    {
+      image: require("./assets/images/logo-musang.png"),
+      projectName: "Musang Teknologi Nusantara",
+      projectDesc: "Create web and mobile application for monitoring fuel storage tank",
+      footerLink: [
+        {
+          name: "Provider specialization in both software and hardware solutions",
+          url: "https://musang-syncronizehub-ody-3091b.web.app"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
